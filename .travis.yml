@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "Norman"
-  env: "ReactApp-env"
+  env: "Norman-env"
   bucket_name: "elasticbeanstalk-us-east-1-967195537723"
   bucket_path: "react-app"
   on:
