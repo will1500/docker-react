@@ -12,10 +12,10 @@ deploy:
   edge: true 
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "Norman-app"
-  env: "Norman-env"
+  app: "Norman"
+  env: "Norman"
   bucket_name: "elasticbeanstalk-us-east-1-967195537723"
-  bucket_path: "Norman-app"
+  bucket_path: "Norman"
   on:
     branch: master
   access_key_id: $access_key_id
