@@ -13,9 +13,9 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "Norman"
-  env: "Norman"
+  env: "ReactApp-env"
   bucket_name: "elasticbeanstalk-us-east-1-967195537723"
-  bucket_path: "Norman"
+  bucket_path: "react-app"
   on:
     branch: master
   access_key_id: $access_key_id
